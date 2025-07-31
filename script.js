@@ -2,7 +2,7 @@
 
 function toggleForm() {
   const formDiv = document.getElementById("myForm");
-  formDiv.style.display = "block"; // يظهر الفورم
+  formDiv.style.display = "block"; 
 }
 function openModal() {
   document.getElementById("formModal").style.display = "block";
@@ -13,7 +13,7 @@ function closeModal() {
 }
 
 function submitForm(event) {
-  event.preventDefault(); // يمنع الإرسال الفعلي
+  event.preventDefault(); 
   alert("Data sent successfully");
-  closeModal(); // يقفل النافذة بعد الإرسال
+  closeModal(); 
 }
