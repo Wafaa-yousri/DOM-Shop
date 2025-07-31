@@ -60,11 +60,10 @@ nav a:hover {
     color: #fff;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s; /* انتقال سلس للتغيير */
-}
+    transition: background-color 0.3s;
 
 .hero button:hover {
-    background-color: #553c9a; /* تغيير لون الزر عند الهوفر */
+    background-color: #553c9a; 
 }
 
 .products {
@@ -86,11 +85,11 @@ nav a:hover {
     color: #fff;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s; /* انتقال سلس للتغيير */
+    transition: background-color 0.3s; 
 }
 
 .products button:hover {
-    background-color: #553c9a; /* تغيير لون الزر عند الهوفر */
+    background-color: #553c9a; 
 }
 
 .product-list {
