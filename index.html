@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Shop</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <nav class="nav a">
+        <div class="lo">DOM Shop</div>
+        <div class="ul">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            </div>
+        </nav>
+    
+
+    <section class="hero">
+        <h1>Modern Web Experiences</h1>
+        <p>Discover the power of pure JavaScript DOM manipulation with smooth animations and interactions</p>
+        <button>Explore Products</button>
+    </section>
+
+
+    <section class="products">
+        <h2>Our Products</h2>
+        <p>Browse our selection of high-quality items built with modern web technologies</p>
+        
+<button onclick="openModal()">add product</button>
+
+  
+  <div id="formModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <form onsubmit="submitForm(event)">
+        <label>name</label>
+        <input type="text" name="name" required><br><br>
+        <label>email</label>
+        <input type="email" name="email" required><br><br>
+        <label>massege</label>
+        <input type="text" name="massage" ><br><br>
+        <button type="submit">send</button>
+      </form>
+    </div>
+  </div>
+  
+        <div class="product-list">
+            <div class="product-card">
+                <h3>JavaScript</h3>
+                <p>JavaScript Mastery Course</p>
+                <p>$99.99</p>
+                <p>Comprehensive course covering modern JavaScript patterns and best practices.</p>
+            </div>
+            <div class="product-card">
+                <h3>CSS</h3>
+                <p>CSS Animations Guide</p>
+                <p>$49.99</p>
+                <p>Learn to create stunning animations using only CSS.</p>
+            </div>
+            <div class="product-card">
+                <h3>DOM</h3>
+                <p>DOM Manipulation Handbook</p>
+                <p>$39.99</p>
+                <p>The complete guide to DOM manipulation.</p>
+            </div>
+            <div class="product-card">
+                <h3>SS</h3>
+                <p>$44.00</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2 class="hero h1" class="lo">About Us</h2>
+        <p>We're a passionate team dedicated to creating beautiful web experiences without relying on heavy frameworks. Our focus is on core web technologies that deliver exceptional performance.</p>
+        <p>By mastering vanilla JavaScript, CSS, and HTML, we build lightweight, fast, and accessible websites that work everywhere.</p>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3 >DOM Shop</h3>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+            <p>&copy; 2023 DOM Shop. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+

@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to right, #6b46c1, #a3bffa); 
+}
+
+.lo {
+  background: linear-gradient(90deg, #6366f1, #de2be4);
+background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color:black;
+    transition: color 0.3s; 
+   
+}
+
+nav a:hover {
+    color: #ddd; /
+}
+
+
+.ul{
+    margin-left: 80%;
+   color: #333;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #6b46c1, #a3bffa);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #6b46c1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* انتقال سلس للتغيير */
+}
+
+.hero button:hover {
+    background-color: #553c9a; /* تغيير لون الزر عند الهوفر */
+}
+
+.products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    color: #6b46c1;
+}
+
+.products p {
+    color: #666;
+}
+
+.products button {
+    padding: 10px 20px;
+    background-color: #6b46c1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* انتقال سلس للتغيير */
+}
+
+.products button:hover {
+    background-color: #553c9a; /* تغيير لون الزر عند الهوفر */
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.product-card h3 {
+    color: #6b46c1;
+}
+
+.product-card p {
+    margin: 5px 0;
+}
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about h2 {
+    color: #6b46c1;
+    background: linear-gradient(to right, #6b46c1, #a3bffa); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+footer nav a:hover {
+    color: #ddd; 
+}
+
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5); 
+}
+
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  position: relative;
+}
+
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
